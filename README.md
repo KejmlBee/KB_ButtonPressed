@@ -12,15 +12,15 @@ Included function, if any button pin is not set to INPUT, do will it itself.<br>
 
 - define buttons pin
 
-`byte buttonPin_1 = 26;`
-``
-`void setup()`
-`{`
-`	Serial.begin(9600);`
-`}`
-``
-`void loop()`
-`{`
+`byte buttonPin_1 = 26;
+
+void setup()
+{
+	Serial.begin(9600);
+}
+
+void loop()
+{`
 
 - use library function
 

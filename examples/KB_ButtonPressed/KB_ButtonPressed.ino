@@ -1,9 +1,9 @@
 #include <KB_ButtonPressed.h>
 
-byte buttonPin_1 = 26;
-byte buttonPin_2 = 25;
-byte buttonPin_3 = 17;
-byte buttonPin_4 = 16;
+uint8_t buttonPin_1 = 26;
+uint8_t buttonPin_2 = 25;
+uint8_t buttonPin_3 = 17;
+uint8_t buttonPin_4 = 16;
 
 void setup()
 {

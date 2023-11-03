@@ -6,23 +6,20 @@ Included function, if any button pin is not set to INPUT, do will it itself.<br>
 
 ## Example
 
-- include library
+1. include library
 ```
-	#include <KB_ButtonPressed.h>
-```
-
-- define buttons pin
-```
-	byte buttonPin_1 = 26;
+#include <KB_ButtonPressed.h>
 ```
 
-- use library function
+2. define buttons pin
 ```
-void loop()
+byte buttonPin_1 = 26;
+```
+
+3. use library function
+```
+if(ButtonPressed(buttonPin_1))
 {
-	if(ButtonPressed(buttonPin_1))
-	{
-		Serial.print("Button 1");
-	}
+	// your code after button pressed
 }
 ```

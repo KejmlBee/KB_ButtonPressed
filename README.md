@@ -8,10 +8,10 @@ Included function, if any button pin is not set to INPUT, do will it itself.<br>
 
 - include library
 
-	#include <KB_ButtonPressed.h>`
+	#include <KB_ButtonPressed.h>
 
 - define buttons pin
-
+```
 	byte buttonPin_1 = 26;
 	
 	void setup()
@@ -21,7 +21,7 @@ Included function, if any button pin is not set to INPUT, do will it itself.<br>
 	
 	void loop()
 	{
-
+```
 - use library function
 
 	if(ButtonPressed(buttonPin_1))

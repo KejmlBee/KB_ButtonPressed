@@ -1,6 +1,6 @@
 ## Overview
 
-Very simple Arduino library to generic detect if any button is pressed.<br>
+Very simple Arduino library, for all architectures, to generic detect if any button is pressed.<br>
 
 Included function, if any button pin is not set to INPUT, do will it itself.<br>
 
@@ -23,3 +23,5 @@ if(ButtonPressed(buttonPin_1))
 	// your code after button pressed
 }
 ```
+
+Return HIGH if is button pressed.<br>
